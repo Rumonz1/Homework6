@@ -34,6 +34,7 @@ public class Main {
         int contribution = 29000;
         int total = 0;
         for (int o = 1; o <= 12; o++) {
+            total = total + total/100;
             total= contribution + total;
             System.out.println("Месяц "+o+ " ,сумма накоплений равна "+total+ " рублей");
         }
