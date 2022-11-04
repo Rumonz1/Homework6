@@ -30,6 +30,13 @@ public class Main {
         for (int m = 1; m <= 512; m = m * 2) {
             System.out.println(m);
         }
-
+        //Задание 1.3
+        int contribution = 29000;
+        int total = 0;
+        for (int o = 1; o <= 12; o++) {
+            total= contribution + total;
+            System.out.println("Месяц "+o+ " ,сумма накоплений равна "+total+ " рублей");
+        }
+        System.out.println(total);
     }
 }
